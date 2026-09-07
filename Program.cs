@@ -9,9 +9,9 @@ while (continuar)
 {
     Console.Clear();
 
-    Console.WriteLine("================================");
-    Console.WriteLine("     SISTEMA DE BIBLIOTECA");
-    Console.WriteLine("================================");
+    
+    Console.WriteLine("SISTEMA DE BIBLIOTECA");
+    Console.WriteLine();
     Console.WriteLine("1. Registrar libro");
     Console.WriteLine("2. Registrar usuario");
     Console.WriteLine("3. Listar libros");
@@ -24,8 +24,7 @@ while (continuar)
     Console.WriteLine("10. Ver libros ordenados");
     Console.WriteLine("11. Buscar por autor o categoría");
     Console.WriteLine("12. Salir");
-    Console.WriteLine("================================");
-
+    Console.WriteLine();
     Console.Write("Seleccione una opción: ");
     string? opcion = Console.ReadLine();
 
